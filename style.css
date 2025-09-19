@@ -1,0 +1,601 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(241, 245, 246);
+}
+
+.wrapper {
+  max-width: 100%;
+  margin-top: 3px;
+  background-color: rgb(241, 245, 246);
+}
+
+.home {
+  width: 100%;
+  height: 93px;
+  background-color: rgb(246, 246, 246);
+}
+
+nav {
+  display: flex;
+  -webkit-backdrop-filter: blur(400px);
+          backdrop-filter: blur(400px);
+  justify-content: space-between;
+  padding: 25px 70px;
+}
+nav .it {
+  display: flex;
+  gap: 40px;
+}
+nav .iq {
+  transform: translateY(7px);
+  width: 110px;
+  height: 30px;
+}
+nav .btn {
+  width: 162px;
+  height: 44px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 0.5px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+nav .btn:hover {
+  background-color: rgb(35, 65, 93);
+}
+nav .btn:hover button {
+  color: white;
+  background-color: rgb(35, 65, 93);
+}
+nav .btn:hover .boxlar .white {
+  background-color: white;
+}
+nav .btn:hover .boxlar .dark-blue {
+  background: rgb(84, 109, 132);
+}
+nav .btn button {
+  font-family: 700;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: white;
+  border: 0px solid;
+  color: rgb(35, 65, 93);
+  font-size: 15px;
+  font-weight: 700;
+}
+nav .btn .boxlar {
+  cursor: pointer;
+  gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+nav .btn .boxlar .dark-blue {
+  width: 8px;
+  height: 8px;
+  transition: all 0.5s;
+  border-radius: 2px;
+  background-color: rgb(211, 213, 214);
+}
+nav .btn .boxlar .white {
+  width: 8px;
+  height: 8px;
+  transition: all 0.5s;
+  border-radius: 2px;
+  background-color: rgb(35, 65, 93);
+}
+nav .academy {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+}
+nav .academy p {
+  font-family: sans-serif;
+  cursor: pointer;
+}
+nav .academy .tel {
+  display: flex;
+  cursor: pointer;
+  gap: 5px;
+  margin-top: 14px;
+  font-family: sans-serif;
+}
+nav .academy .tel img {
+  width: 20px;
+  height: 20px;
+}
+nav .akademiya {
+  margin-top: 14px;
+}
+nav .hr {
+  margin-top: 12px;
+  width: 1px;
+  border-radius: 100px;
+  height: 24px;
+  background-color: rgb(226, 231, 235);
+}
+nav .btn-uzb {
+  display: flex;
+  gap: 5px;
+  width: 158px;
+  height: 32px;
+  margin-top: 6px;
+  border: 1px solid rgb(235, 235, 235);
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+nav .btn-uzb:hover {
+  border: 1px solid goldenrod;
+}
+nav .btn-uzb img {
+  width: 20px;
+  height: 20px;
+}
+nav .ariza button {
+  width: 158px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px solid;
+  background: rgb(35, 65, 93);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 0.5px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  font-weight: 700;
+}
+nav .ariza button:hover {
+  color: rgb(35, 65, 93);
+  background-color: white;
+}
+
+hr {
+  background: linear-gradient(152.13deg, #FFFFFF 10.15%, #F6F6F6 82.7%);
+}
+
+.mujiza {
+  padding: 100px 30px;
+}
+.mujiza span {
+  display: flex;
+  gap: 20px;
+}
+.mujiza span .moviy {
+  color: rgb(70, 160, 220);
+}
+.mujiza span h1 {
+  color: rgb(35, 65, 93);
+  font-size: 80px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.mujiza .fot {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 70px;
+  transform: translateY(-130px);
+}
+.mujiza .fot h1 {
+  color: rgb(35, 65, 93);
+  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+.mujiza .fot .iq-acdemy {
+  width: 356px;
+  height: 108px;
+  border-radius: 12px;
+  background-color: rgb(70, 160, 220);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+.mujiza .fot .iq-acdemy h1 {
+  color: white;
+  padding: 5px 0px;
+}
+
+.foter .hr-veb {
+  margin-left: 690px;
+  transform: translateY(-40px);
+}
+
+.hr-veb1 {
+  transform: translateY(-180px);
+}
+
+.kurs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  transform: translateY(-180px);
+}
+.kurs img {
+  transform: translateY(-100px);
+}
+.kurs p {
+  margin-bottom: 40px;
+  width: 480px;
+  font-size: 18px;
+  color: rgb(35, 65, 93);
+  font-family: sans-serif;
+}
+.kurs .serf {
+  display: flex;
+  gap: 30px;
+}
+.kurs .serf .ariza-q {
+  width: 158px;
+  height: 40px;
+  border: 0px solid;
+  border-radius: 5px;
+  background: rgb(35, 65, 93);
+  transition: all 0.5s;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 0.5px 2px rgba(0, 0, 0, 0.2);
+}
+.kurs .serf .ariza-q:hover {
+  background-color: white;
+  color: rgb(35, 65, 93);
+}
+.kurs .serf .serti {
+  width: 217px;
+  height: 40px;
+  border: 0px solid;
+  border-radius: 5px;
+  background: rgb(70, 160, 220);
+  transition: all 0.5s;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 0.5px 2px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  font-weight: 600;
+}
+.kurs .serf .serti:hover {
+  background-color: white;
+  color: rgb(35, 65, 93);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  transform: translateY(-220px);
+}
+.total span {
+  display: flex;
+  gap: 10px;
+}
+.total span h1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: rgb(35, 65, 93);
+}
+.total span .moviy {
+  color: rgb(70, 160, 220);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+.total p {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 486px;
+  color: rgb(105, 104, 113);
+}
+
+.bizning-kurs h1 {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0px 30px;
+  color: rgb(35, 65, 93);
+  transform: translateY(-150px);
+}
+
+.rkt {
+  transform: translateY(-200px);
+}
+
+.raketa-img {
+  position: relative;
+  animation: heartbeat 7s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1.1);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.kurslar-soni {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 0px 30px;
+  transform: translateY(-100px);
+}
+.kurslar-soni .kurs-cart {
+  width: 195px;
+  height: 220px;
+  border-width: 0px, 0px, 0px, 0px;
+  border-style: solid;
+  border: 1px solid rgb(226, 231, 235);
+  border-radius: 12px;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-color: rgb(226, 231, 235);
+}
+.kurslar-soni .kurs-cart:hover {
+  box-shadow: 0px 10px 16px 0px rgba(75, 75, 75, 0.25);
+}
+.kurslar-soni .kurs-cart:hover p {
+  color: rgb(35, 65, 93);
+}
+.kurslar-soni .kurs-cart p {
+  font-family: sans-serif;
+  color: rgb(90, 108, 131);
+  font-size: 15px;
+  transition: all 0.5s;
+  margin-top: 20px;
+  width: 110px;
+  font-weight: 600;
+}
+.kurslar-soni .kurs-cart .img-kurs {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: rgb(181, 219, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kurslar-soni .kurs-cart .veb-kurs {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border: 2px dashed rgb(181, 219, 255);
+  border-radius: 100px;
+}
+
+.btn.active {
+  display: none;
+}
+
+.boxx.active {
+  display: none;
+}
+
+.swipper.active {
+  display: none;
+}
+
+.wrapper.active {
+  display: none;
+}
+
+.parent {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.parent img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  /* position: relative; */
+  transition: all 10s linear;
+  animation: heartbe 5s infinite;
+  cursor: pointer;
+}
+
+@keyframes heartbe {
+  0% {
+    transform: translateX(400px);
+  }
+  /* 25% { transform: translateX(-10px)} */
+  50% {
+    transform: translateX(0px);
+  }
+  /* 75% { transform: translateX(-1000px)} */
+  100% {
+    transform: translateX(-500px);
+  }
+}
+.parent2 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.parent2 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  transition: all 10s linear;
+  animation: heart 5s infinite;
+  cursor: pointer;
+}
+
+@keyframes heart {
+  0% {
+    transform: translateX(-500px);
+  }
+  /* 25% { transform: translateX(-10px)} */
+  50% {
+    transform: translateX(0px);
+  }
+  /* 75% { transform: translateX(-1000px)} */
+  100% {
+    transform: translateX(400px);
+  }
+}
+.swipper {
+  width: 100%;
+  height: 700px;
+  background-color: #23415d;
+}
+.swipper h1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding: 40px 30px;
+}
+
+.none {
+  display: flex;
+  gap: 70px;
+  padding: 20px 30px;
+  font-family: sans-serif;
+}
+.none span {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.none span h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.none span .color {
+  color: rgb(253, 184, 7);
+}
+.none p {
+  font-size: 21px;
+  width: 523px;
+  color: rgb(165, 165, 165);
+}
+.none .pcom {
+  margin-top: 80px;
+  color: rgb(35, 65, 93);
+}
+.none button {
+  margin-top: 30px;
+  width: 172px;
+  height: 48px;
+  color: white;
+  background-color: rgb(35, 65, 93);
+  border: 0px solid;
+  font-size: 17px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 0.5px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+.none button:hover {
+  color: rgb(35, 65, 93);
+  background-color: white;
+}
+
+.kutmoq h1 {
+  font-family: sans-serif;
+  color: rgb(35, 65, 93);
+  font-weight: 700;
+  font-size: 28px;
+  padding: 60px 0px;
+}
+
+.block {
+  display: flex;
+}
+
+.put {
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.put div {
+  width: 526px;
+  height: 82px;
+  display: flex;
+  gap: 10px;
+  border-radius: 12px;
+  background-color: white;
+}
+.put div img {
+  width: 30px;
+  margin-top: 25px;
+  margin-left: 15px;
+  height: 30px;
+}
+.put div p {
+  margin-top: 25px;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(84, 108, 131);
+}
+
+.close {
+  width: 158px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px solid;
+  background: rgb(35, 65, 93);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 0.5px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  font-weight: 700;
+}
+.close:hover {
+  color: rgb(35, 65, 93);
+  background-color: white;
+}
+
+.red {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
